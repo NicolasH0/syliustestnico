@@ -37,7 +37,7 @@ jobs:
             before_install:
                 - phpenv config-rm xdebug.ini || true
 
-                - echo "memory_limit=4096M" >> ~/.phpenv/versions/$(phpenv version-name)/etc/conf.d/travis.ini
+                - echo "memory_limit=8192M" >> ~/.phpenv/versions/$(phpenv version-name)/etc/conf.d/travis.ini
 
                 - composer self-update --1
 
