@@ -10,7 +10,7 @@ php:
 jobs:
     include:
         -   
-            &testsylius heroku allow memory
+            &test
             
             stage: test
             name: "Symfony 4.4.* build (PHP 7.4)"
